@@ -5,13 +5,13 @@ import { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
-import Footer from '@/components/layout/footer';
+// import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Saikiran | Full Stack Developer From Hyderabad, India.';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
+  'A self-proclaimed developer who specializes in full stack development (React.js & Node.js), Hyderabad, India.';
 const url = 'https://sagarshah.dev';
 
 export const metadata: Metadata = {
@@ -85,7 +85,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </Providers>
       </body>
     </html>

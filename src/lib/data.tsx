@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github,Linkedin } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
@@ -34,6 +34,8 @@ import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
+import spotletLogo from '/public/images/logos/logo-spotlet.png';
+
 import {
   ExperienceDetails,
   ProjectDetails,
@@ -56,13 +58,21 @@ export const NAV_LINKS = [
     href: '#about',
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: 'Skills',
+    href: '#skills',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: 'Experience',
+    href: '#experience',
   },
+  // {
+  //   label: 'Work',
+  //   href: '#work',
+  // },
+  // {
+  //   label: 'Testimonials',
+  //   href: '#testimonials',
+  // },
   {
     label: 'Contact',
     href: '#contact',
@@ -72,15 +82,11 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/saikirandasari04',
   },
   {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
-  },
-  {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/saikirandasari04/',
   },
 ];
 
@@ -116,53 +122,53 @@ export const TECHNOLOGIES: TechDetails[] = [
     darkModeLogo: LogoExpressLight,
     url: 'https://expressjs.com/',
   },
-  {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
+  // {
+  //   label: 'Nest.js',
+  //   logo: LogoNest,
+  //   url: 'https://nestjs.com/',
+  // },
   {
     label: 'Socket.io',
     logo: LogoSocket,
     darkModeLogo: LogoSocketLight,
     url: 'https://socket.io/',
   },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
+  // {
+  //   label: 'PostgreSQL',
+  //   logo: LogoPostgreSQL,
+  //   url: 'https://www.postgresql.org/',
+  // },
   {
     label: 'MongoDB',
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
   },
-  {
-    label: 'Sass/Scss',
-    logo: LogoSass,
-    url: 'https://sass-lang.com/',
-  },
-  {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
-  },
-  {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
+  // {
+  //   label: 'Sass/Scss',
+  //   logo: LogoSass,
+  //   url: 'https://sass-lang.com/',
+  // },
+  // {
+  //   label: 'Tailwindcss',
+  //   logo: LogoTailwindcss,
+  //   url: 'https://tailwindcss.com/',
+  // },
+  // {
+  //   label: 'Figma',
+  //   logo: LogoFigma,
+  //   url: 'https://www.figma.com/',
+  // },
+  // {
+  //   label: 'Cypress',
+  //   logo: LogoCypress,
+  //   darkModeLogo: LogoCypressLight,
+  //   url: 'https://www.cypress.io/',
+  // },
+  // {
+  //   label: 'Storybook',
+  //   logo: LogoStorybook,
+  //   url: 'https://storybook.js.org/',
+  // },
   {
     label: 'Git',
     logo: LogoGit,
@@ -171,40 +177,50 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
+  // {
+  //   logo: LogoUpwork,
+  //   logoAlt: 'Upwork logo',
+  //   position: 'Independent Freelancer',
+  //   startDate: new Date(2021, 10),
+  //   currentlyWorkHere: true,
+  //   summary: [
+  //     'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
+  //     'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+  //   ],
+  // },
+  // {
+  //   logo: LogoGreenApex,
+  //   darkModeLogo: LogoGreenApexLight,
+  //   logoAlt: 'Greenapex logo',
+  //   position: 'Team Lead',
+  //   startDate: new Date(2017, 6),
+  //   endDate: new Date(2021, 9),
+  //   summary: [
+  //     'Acted as team lead in different projects.',
+  //     'Brainstormed new ideas & gathered requirements for internal projects.',
+  //     'Designed architecture of different projects (frontend + backend).',
+  //     'Worked on enterprise-level projects for a variety of clients.',
+  //     'Handled sprint planning & task distribution.',
+  //   ],
+  // },
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    logo: spotletLogo,
+    darkModeLogo: spotletLogo,
+    logoAlt: "Spotlet logo",
+    position: "Full Stack Developer",
+    startDate: new Date(2023, 4),
+    endDate: new Date(2017, 4),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      ` Assisted with planning, designing, coding, debugging, testing, documenting, 
+and maintaining software applications.`,
+      `Designed database structures to store data securely and efficiently.`,
+      `Maintained source control repositories such as Git for versioning purposes.`,
+      `Debugged code to identify errors and fix them efficiently`,
+      `Optimized program performance by analyzing code and making changes as 
+needed.`,
+      ` Collaborated with team members to ensure successful project completion.`,
     ],
-  },
-  {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
-    summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
-    ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
 

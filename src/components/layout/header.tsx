@@ -21,7 +21,7 @@ import Typography from '@/components/general/typography';
 
 const Logo = () => (
   <Typography variant="h3" className="font-bold">
-    {'<SS />'}
+    {'<Sikiran />'}
   </Typography>
 );
 
@@ -44,10 +44,10 @@ const Header = () => {
         scrolled ? 'bg-gray/50 backdrop-blur-xl md:border-gray-100' : ''
       )}
     >
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-end p-4 md:px-8">
-        {/* <Link href="/" noCustomization>
+      <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-4 md:px-8">
+        <Link href="/" noCustomization>
           <Logo />
-        </Link> */}
+        </Link>
         <div className="hidden items-center gap-6 md:flex">
           <ul className="flex list-none items-center gap-6">
             {NAV_LINKS.map((link, index) => (
