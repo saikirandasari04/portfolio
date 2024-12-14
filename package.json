@@ -1,7 +1,7 @@
 {
-  "name": "saikiran",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://saikirandasari04.github.io/saikiran",
+  "homepage": "https://saikirandasari04.github.io/portfolio",
   "private": true,
   "scripts": {
     "predeploy" : "npm run build",
