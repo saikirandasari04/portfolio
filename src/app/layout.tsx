@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Saikiran',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/kiran-headshot.png',
       },
     ],
   },
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
+    creator: '@saikiran',
+    images: '/images/kiran-headshot.png',
   },
   icons: {
     icon: '/favicon.ico',
