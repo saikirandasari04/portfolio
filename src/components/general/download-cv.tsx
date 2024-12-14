@@ -4,8 +4,10 @@ import Button from '@/components/general/button';
 
 const DownloadCV = () => {
   return (
-    <Button onClick={() => window?.open('/files/Saikiran-dasari-resume.pdf', '_blank')}>
-      Download Resume
+    <Button>
+      <a href='./files/Saikiran-dasari-resume.pdf' download style={{ textDecoration: 'none', color: 'inherit' }}>
+        Download Resume
+      </a>
     </Button>
   );
 };
