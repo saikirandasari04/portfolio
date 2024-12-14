@@ -4,8 +4,8 @@
   "homepage": "https://saikirandasari04.github.io/portfolio",
   "private": true,
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -34,6 +34,7 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
