@@ -102,7 +102,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.typescriptlang.org/',
   },
   {
-    label: 'React',
+    label: 'React & React Native',
     logo: LogoReact,
     url: 'https://react.dev/',
   },
@@ -212,14 +212,20 @@ export const EXPERIENCES: ExperienceDetails[] = [
     endDate: new Date(2017, 4),
     currentlyWorkHere: true,
     summary: [
-      ` Assisted with planning, designing, coding, debugging, testing, documenting, 
-and maintaining software applications.`,
-      `Designed database structures to store data securely and efficiently.`,
-      `Maintained source control repositories such as Git for versioning purposes.`,
-      `Debugged code to identify errors and fix them efficiently`,
-      `Optimized program performance by analyzing code and making changes as 
-needed.`,
-      ` Collaborated with team members to ensure successful project completion.`,
+      `Assisted with planning, designing, coding, debugging, testing, documenting, and maintaining
+software applications.`,
+      `Developed responsive, user-friendly front-end interfaces with a strong focus on UI/UX using React,
+Bootstrap, and Tailwind CSS to ensure consistency across devices.`,
+      `Developed RESTful APIs with Node.js and Express.js for efficient and secure data operations
+`,
+      `Managed database operations with MongoDB and Mongoose for effective schemabased data
+modeling.`,
+      `Deployed scalable applications on AWS using EC2, S3.`,
+      `Maintained source control repositories such as Git for versioning purposes.
+`,
+`Optimized program performance by analyzing code and making changes as needed.`,
+`Collaborated with team members to ensure successful project completion.
+`
     ],
   },
 ];

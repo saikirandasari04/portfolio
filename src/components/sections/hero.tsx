@@ -31,16 +31,11 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I’m a full stack developer with over 1.5 years of experience
-              working with the MERN stack (MongoDB, Express.js, React.js,
-              Node.js). I’m passionate about creating dynamic, scalable, and
-              responsive web applications that provide seamless user
-              experiences. My focus is on building fast, accessible, and
-              visually appealing applications while continuously honing my
-              skills and staying up-to-date with the latest technologies. Even
-              with relatively recent experience, I approach every project with
-              the same excitement and dedication, eager to learn and grow as a
-              developer.
+              Software Developer with 2+ years of hands-on experience in full-stack web development. Proficient
+in modern technologies including JavaScript, TypeScript, React, Node.js, Express, SQL, and MongoDB.
+Adept at building scalable, high-performance web applications using Agile methodologies. Strong
+focus on clean code, performance optimization, and delivering user-centric solutions. Committed to
+continuous learning
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

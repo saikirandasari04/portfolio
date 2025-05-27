@@ -34,11 +34,11 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I am a passionate MERN stack developer with over 1.5 years of
+            I am a passionate Software developer with 2 years of
             hands-on experience in building and maintaining web applications.
             Throughout my career, I have gained a strong understanding of
-            MongoDB, Express.js, React, and Node.js, which are the core
-            technologies of the MERN stack. I have worked on various projects,
+            MongoDB, Express.js, React, React Native and Node.js, which are the core
+            technologies of the MERN stack also. I have worked on various projects,
             both individually and as part of a team, helping to develop
             user-friendly, scalable, and responsive applications. My expertise
             includes creating efficient back-end APIs, implementing front-end
