@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              Software Developer with 2+ years of hands-on experience in full-stack web development. Proficient
+              Software Developer with 2 years of hands-on experience in full-stack web development. Proficient
 in modern technologies including JavaScript, TypeScript, React, Node.js, Express, SQL, and MongoDB.
 Adept at building scalable, high-performance web applications using Agile methodologies. Strong
 focus on clean code, performance optimization, and delivering user-centric solutions. Committed to

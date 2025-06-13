@@ -207,10 +207,10 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: spotletLogo,
     darkModeLogo: spotletLogo,
     logoAlt: "Spotlet logo",
-    position: "Full Stack Developer",
+    position: "Software Developer",
     startDate: new Date(2023, 4),
-    endDate: new Date(2017, 4),
-    currentlyWorkHere: true,
+    endDate: new Date(2025, 5),
+    currentlyWorkHere: false,
     summary: [
       `Assisted with planning, designing, coding, debugging, testing, documenting, and maintaining
 software applications.`,
